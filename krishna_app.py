@@ -42,5 +42,4 @@ d={ "Brand_name":  Brand_name,"year": year,"km_driven":Km_driven,"fuel":fuel,"se
 
 test=pd.DataFrame(data=d,index=[0])
 if st.button('Predict Car Selling Price \u20B9'):
-   st.success(loaded_pipeline.predect(test)) 
 predict_price = loaded_pipeline.predict(test)
